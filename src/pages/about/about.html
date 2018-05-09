@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar color="myred">
+    <ion-title>
+      My Boros
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-row>
+        <ion-col  col-4 (click)="viewItem({'image':'boro1.jpg','name':'Easy Jeans'})">
+          <img src="assets/imgs/boro1.jpg"/>
+
+          <h5 text-center>Easy Jeans</h5>
+        
+        </ion-col>
+
+        <ion-col col-4 (click)="viewItem({'image':'boro2.jpg','name':'Party Dress'})">
+            <img src="assets/imgs/boro2.jpg"/>
+  
+            <h5 text-center>Party Dress</h5>
+          
+          </ion-col>
+
+          <ion-col col-4 (click)="viewItem({'image':'boro3.jpg','name':'Coat'})">
+              <img src="assets/imgs/boro3.jpg"/>
+    
+              <h5 text-center>Coat</h5>
+            
+            </ion-col>
+
+            <ion-col col-4 (click)="viewItem({'image':'boro4.jpg','name':'Navy Suit'})">
+                <img src="assets/imgs/boro4.jpg"/>
+      
+                <h5 text-center>Navy Suit</h5>
+              
+              </ion-col>
+
+              <ion-col col-4 (click)="viewItem({'image':'boro5.jpg','name':'stylish Heels'})">
+                  <img src="assets/imgs/boro5.jpg"/>
+        
+                  <h5 text-center>Stylish heels</h5>
+                
+                </ion-col>
+      
+      </ion-row>
+
+        
+  
+
+</ion-content>

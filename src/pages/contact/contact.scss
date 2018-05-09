@@ -1,0 +1,19 @@
+page-contact {
+
+    font-weight: 20px;
+
+    .circle-pic{
+        width:100px;
+        height:100px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin-left: 30%;
+        margin-right: 30%;
+        border: 2px #f4b0a1 solid;
+    }
+
+    ion-label{
+        color:grey;
+    }
+
+}

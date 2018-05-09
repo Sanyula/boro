@@ -1,0 +1,56 @@
+page-home {
+
+
+    .slider{
+        max-height:150px;
+        min-height:150px;
+         margin-top:0px;
+         color:#fff;
+    }
+
+    .my-container{
+        
+        height:100%; 
+        padding-bottom:1em;
+    }
+
+
+    .category {
+        position: relative;
+        text-align: center;
+        border-radius: 8px;
+      
+    
+      .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight:200;
+        color: #fff;
+      }
+    
+      .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+        padding-top: 0.5em;
+      }
+
+    }
+
+    ion-note{
+        color:#000;
+    }
+
+    .tabimg{
+        max-width: 40px;
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color:#e55d42; 
+    }
+
+}

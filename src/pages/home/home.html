@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-navbar color="myred">
+    <ion-title>Boro Boro</ion-title>
+
+    <ion-buttons end>
+        <button ion-button icon-only>
+          <ion-icon name="search"></ion-icon>
+        </button>
+
+        <button ion-button icon-only>
+            <ion-icon name="cart"></ion-icon>
+          </button>
+        </ion-buttons>
+  </ion-navbar>
+
+  
+</ion-header>
+
+<ion-content style="background-color:#d6d6d4;">
+
+  <div class="my-container">
+
+  
+  <ion-slides pager class="slider" autoplay="5000" loop="true" speed="500">
+
+    <ion-slide style="background-image:url(assets/imgs/slide1.jpg); background-size:cover; background-repeat:no-repeat;">
+      <h2>Go Smarter,cheaply!</h2>
+    </ion-slide>
+  
+    <ion-slide style="background-image:url(assets/imgs/slide2.jpg); background-size:cover; background-repeat:no-repeat;">
+      <h2><!--slider has words--></h2>
+    </ion-slide>
+  
+    <ion-slide style="background-image:url(assets/imgs/slide3.jpg); background-size:cover; background-repeat:no-repeat;">
+      <h2>Trendy Suits</h2>
+    </ion-slide>
+
+    <ion-slide style="background-image:url(assets/imgs/slide4.jpg); background-size:cover; background-repeat:no-repeat;">
+      <h2>Elegant Wedding Attire</h2>
+    </ion-slide>
+  
+  </ion-slides>
+
+  
+  <ion-card style="max-height:100px; padding-top:0px;" >
+    <ion-card-content style="padding-top:0px; padding-bottom:2px;">
+
+        <ion-row>
+            <ion-col col-3><ion-note>Dresses</ion-note><img class="tabimg" src="assets/imgs/tab1.jpg"/></ion-col>
+            <ion-col col-3><ion-note>Suits</ion-note><img class="tabimg" src="assets/imgs/tab2.png"/></ion-col>
+            <ion-col col-3><ion-note>Casuals</ion-note><img class="tabimg" src="assets/imgs/tab3.png"/></ion-col>
+            <ion-col col-3><ion-note>Shoes</ion-note><img class="tabimg" src="assets/imgs/tab4.png"/></ion-col>
+            
+          </ion-row>
+        </ion-card-content>
+  </ion-card>
+
+
+  <ion-card class="category">
+      <img src="assets/imgs/slide3.jpg"/>
+      <div class="card-title">Men's suits</div>
+      <div class="card-subtitle">From UGX 50,000</div>
+    </ion-card>
+
+    <ion-card class="category">
+        <img src="assets/imgs/cat2.png"/>
+        <div class="card-title">Casual Wear</div>
+        <div class="card-subtitle">From UGX 10,000</div>
+      </ion-card>
+
+      <ion-card class="category">
+          <img src="assets/imgs/cat3.jpg"/>
+          <div class="card-title">Stylish Ladies</div>
+          <div class="card-subtitle">From UGX 40,000</div>
+        </ion-card>
+
+</div>
+
+</ion-content>
